@@ -1,0 +1,382 @@
+<resources>
+    <string name="app_name">DnD Soundboard</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+
+    <!-- Menus -->
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_filter">Filter</string>
+
+    <string name="menu_adhoc">New Assessment</string>
+    <string name="menu_schedule">My Schedule</string>
+    <string name="menu_nonconformances">Non-Conformances</string>
+    <string name="menu_tasks">Tasks</string>
+
+    <string name="title_activity_assessment">Assessment</string>
+    <string name="title_activity_nonconformance">Add Non-Conformance</string>
+    <string name="title_activity_historical_assessment">Completed Assessments</string>
+    <string name="title_activity_settings">App Settings</string>
+
+    <string name="nc_status_title">Status</string>
+    <string name="nc_due_date_title">Due Date</string>
+    <string name="nc_assignee_title">Assignee</string>
+    <string name="nc_contact_title">Contact</string>
+    <string name="requirement_title">Requirement Details</string>
+    <string name="nc_text_title_details">Non-Conformance Details</string>
+    <string name="categories_title">Categories</string>
+    <string name="non_conformances_title">Non-Conformances</string>
+    <string name="recommendation_title">Recommendation</string>
+    <string name="tasks_title">Tasks</string>
+    <string name="attachments_title">Evidence</string>
+    <string name="nc_corrective_action_title">Corrective Action</string>
+    <string name="nc_root_cause_title">Root Cause</string>
+    <string name="nc_why_title">Why?</string>
+    <string name="nc_corrective_action_placeholder">Describe your corrective action…</string>
+    <string name="nc_root_cause_placeholder">Enter a root cause…</string>
+    <string name="nc_add_camera_image_button_text">Take Photo</string>
+    <string name="nc_add_gallery_image_button_text">Pick Gallery Image</string>
+
+    <string name="add_nc">Add Non-Conformance</string>
+    <string name="add_recommendation">Add Recommendation</string>
+
+    <string name="task_add_base">Add Task</string>
+    <string name="task_text_title">Task Details</string>
+    <string name="task_text_placeholder">Enter task…</string>
+    <string name="task_add_action_button_text">Add Action Taken</string>
+    <string name="action_taken">Action Taken</string>
+    <string name="confirm_delete_action_taken">Remove Action Taken</string>
+    <string name="task_action_placeholder">Enter Action…</string>
+
+    <string name="nc_add_pa_button_text">Add Preventative Action</string>
+    <string name="nc_add_ca_button_text">Add Corrective Action</string>
+    <string name="no_due_date_set">No Due Date Set</string>
+    <string name="nc_unassigned">Unassigned</string>
+    <string name="unassigned_nc_dialog_title">UNASSIGNED NON-CONFORMANCE</string>
+    <string name="unassigned_task_dialog_title">UNASSIGNED TASK</string>
+    <string name="unassigned_nc_dialog_message">This Non-Conformance is unassigned. To assign it to a user, open this Non-Conformance in the reports section of the portal and change the assignee from unassigned to the desired user.</string>
+    <string name="unassigned_task_dialog_message">This Task is unassigned. To assign it to a user, open this Task in the reports section of the portal and change the assignee from unassigned to the desired user.</string>
+    <string name="draft_nc_dialog_title">UNPUBLISHED DRAFT NON-CONFORMANCE</string>
+    <string name="draft_nc_dialog_message">This Non-Conformance is unpublished. To advance a Draft Non-Conformance, open the reports section of the portal, open the Draft and click publish .</string>
+
+    <string name="nc_text_placeholder">Enter non-conformance…</string>
+    <string name="paste_observation">[PASTE OBSERVATION]</string>
+
+    <string name="nc_preventative_action_title">Preventative Action</string>
+    <string name="nc_preventative_action_placeholder">Describe your preventative action…</string>
+    <string name="nc_corrective_action_title_case">Corrective Action</string>
+    <string name="nc_preventative_action_title_case">Preventative Action</string>
+    <string name="nc_confirm_delete_ca_button_text">Remove Corrective Action</string>
+    <string name="nc_confirm_delete_pa_button_text">Remove Preventative Action</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="updating_nc">Updating NonConformance</string>
+    <string name="nc_not_updated">Non-Conformance has not been updated</string>
+
+    <string name="nc_invalid_dialog_title">NonConformance Incomplete</string>
+    <string name="nc_invalid_text">You need to add some information to the following fields before you can submit this NonConformance: </string>
+    <string name="nc_ca_invalid_text">\nCorrective Action</string>
+    <string name="nc_rc_invalid_text">\nRoot Cause</string>
+    <string name="nc_cf_invalid_text">\nCustom Fields</string>
+    <string name="nc_pa_invalid_text">\nPreventative Action</string>
+    <string name="nc_offline_invalid_text_approve">\n\Please sync the Non-Conformance list before approving this nc.</string>
+    <string name="nc_offline_invalid_text_reject">\n\Please sync the Non-Conformance list before rejecting this nc.</string>
+
+    <string name="nc_invalid_assignee_dialog_message">Only the Assignee may review this Non-Conformance.</string>
+
+    <string name="nc_rejection_comment_dialog_title">Reject Non Conformance</string>
+    <string name="task_rejection_comment_dialog_title">Reject Task</string>
+    <string name="rejection_comment_placeholder">Add rejection comment…</string>
+    <string name="rejecting_nc">Rejecting NonConformance</string>
+    <string name="rejecting_task">Rejecting Task</string>
+    <string name="add_rejection_comment">You must add a rejection comment</string>
+    <string name="no_approved_by">No user recorded for approval</string>
+    <string name="no_rejected_by">No user recorded for rejection</string>
+    <string name="no_rejection_comment_date">No rejection comment date recorded</string>
+    <string name="no_approval_comment_date">No approval comment date recorded</string>
+    <string name="no_rejection_comment">No rejection comment recorded</string>
+    <string name="no_approval_comment">No approval comment recorded</string>
+    <string name="rejection_header">Rejection %1$d - %2$s</string>
+    <string name="approval_header">Approval %1$d - %2$s</string>
+    <string name="approval_review_text">Approval Level %1$d</string>
+    <string name="rejection_review_text">Rejection Level %1$d</string>
+
+    <string name="no_task">No task recorded</string>
+    <string name="no_nc">No non-conformance recorded</string>
+
+    <string name="approval_comment_placeholder">Add approval comment…</string>
+    <string name="sign_off_comment_placeholder">Add sign off comment…</string>
+
+    <string name="delete_attachment_dialog_title">Delete Attachment?</string>
+    <string name="delete_attachment_dialog_text">You will not be able to undo this action</string>
+
+    <string name="delete_nonconformance_dialog_title">DELETE NON-CONFORMANCE</string>
+    <string name="delete_nonconformance_dialog_text">Are you sure you want to delete this Non-Conformance?</string>
+
+    <!-- Tasks -->
+    <string name="task_validation_error_title">Add Some More Information…</string>
+    <string name="task_validation_error_message">Please complete the fields below to %1$s this Task…\n</string>
+
+    <string name="nc_validation_error_title">Add Some More Information…</string>
+    <string name="nc_validation_error_message">Please complete the fields below to %1$s this Non-Conformance…\n</string>
+
+    <string name="nc_validation_assignee_error_title">Cannot close Non-Conformance…</string>
+    <string name="nc_validation_assignee_error_message">Only the Assignee may close a Non-Conformance, reassign the Non-Conformance in order to close it.\n</string>
+
+    <string name="delete_task_dialog_title">DELETE TASK</string>
+    <string name="delete_task_dialog_text">Are you sure you want to delete this Task?</string>
+
+
+    <string name="task_assignee_self_deselected_dialog_title">ARE YOU SURE YOU WANT TO CHANGE THE ASSIGNEE?</string>
+    <string name="task_assignee_self_deselected_dialog_text">
+        Only the current Auditor can create an Action for this Task.
+        \nChanging the Assignee from the current Auditor to another user will delete this Action and any attachments.
+        \nAre you sure you want to change the Assignee and therefore delete the Action?
+    </string>
+
+    <!-- Buttons -->
+    <string name="delete_image_btn">Delete</string>
+    <string name="complete_close_nc_task">Complete &amp; Close</string>
+    <string name="reopen_nc_task">Reopen</string>
+    <string name="review_nc_task">Submit for Review</string>
+    <string name="approve_nc_task">Approve</string>
+    <string name="reject_nc_task">Reject</string>
+
+    <!-- Signature Dialog Buttons -->
+    <string name="clear_signature">Clear \nSignature</string>
+
+    <!-- Menu Titles / Messages -->
+    <string name="list_item_date">Sun, 16 Dec 2018 at 08:51:00</string>
+    <string name="delete_adhoc_title">Discard Assessment</string>
+    <string name="archive_schedule_title">Archive Assessment</string>
+    <string name="delete_adhoc">Are you sure you want to delete this Assessment?\n\nThis action cannot be undone.</string>
+    <string name="archive_schedule">Are you sure you want to archive this Assessment?\n\nThe Assessment can be restored later.</string>
+    <string name="start_new_assessment_title">Discard Assessment?</string>
+    <string name="start_new_assessment_warning_text">Starting a new Assessment will discard any current progress on this assessment and delete any attached data.
+        If you click "NEW ASSESSMENT" you will not be able to recover any lost data.
+        \n\nAre you sure you wish to continue?</string>
+
+    <!-- Assessment -->
+    <string name="submit_assessment">Submit Assessment</string>
+    <string name="assessment_overview">Overview</string>
+    <string name="assessment_save">Save</string>
+    <string name="assessment_filters">Filter</string>
+    <string name="score_placeholder_text">Please Select</string>
+
+    <!-- General -->
+    <string name="no_internet_avail">Sorry, you don\'t look to have an active internet connection.</string>
+    <string name="org_expired_avail">This Organisation is not currently active. Please contact your administrator for further assistance..</string>
+
+    <string name="title_activity_on_boarding">OnBoarding</string>
+
+    <!-- Assessment Overview -->
+    <string name="overview_current_score">Current Score: %1$d/%2$d</string>
+    <string name="overview_percentage_complete">0</string>
+    <string name="overview_percentage_complete_label" formatted="false">% Complete</string>
+    <string name="overview_requirement_mandatory">Mandatory</string>
+    <string name="overview_linked_document_value">[v%1$s] %2$s</string>
+
+    <!-- SignOff Signatures -->
+    <string name="no_signature_text_dialog_text">You must add your signature</string>
+    <string name="no_print_name_text_dialog_text">You must include your print name</string>
+    <string name="no_print_name_signature_dialog_title">WARNING</string>
+    <string name="mandatory_signature_dialog_title">SIGNATURE REQUIRED</string>
+    <string name="mandatory_signature_dialog_text">A signature is required before submitting the assessment.</string>
+    <string name="mandatory_additional_signature_dialog_title">SIGNATURES REQUIRED</string>
+    <string name="action_required">ACTION REQUIRED</string>
+    <string name="mandatory_additional_signature_dialog_text">Both sign-off signatures are required before submitting the assessment.</string>
+    <string name="action_required_text">More information is required before submitting the assessment:</string>
+
+
+    <!-- Additional Inputs -->
+    <string name="set_date">Set Date…</string>
+    <string name="title_activity_profile_picker">ProfilePicker</string>
+    <string name="title_activity_QR_reader">QR Reader</string>
+
+    <!--  Asset Picker  -->
+    <string name="asset_dialog_expand_text">EXPAND ALL</string>
+    <string name="asset_dialog_collapse_text">COLLAPSE ALL</string>
+
+    <!-- Search Hint -->
+    <string name="updated">Updated</string>
+    <string name="open">Open</string>
+    <string name="pending">Pending</string>
+    <string name="inprogress">In-Progress</string>
+    <string name="inreview">In-Review</string>
+    <string name="reopened">Re-Opened</string>
+    <string name="closed">Closed</string>
+    <string name="overdue">Overdue</string>
+    <string name="draft">Draft</string>
+
+
+    <!-- Completed Assessments -->
+
+
+    <!--  Dialogs  -->
+    <string name="dialog_loading_assessment">Loading Assessment…</string>
+    <string name="dialog_downloading_assessment">Downloading Assessment…</string>
+    <string name="dialog_saving_assessment">Saving Assessment…</string>
+    <string name="dialog_loading_overview">Loading Overview…</string>
+
+    <string name="dialog_preparing_assessment">Preparing to upload Assessment…</string>
+    <string name="dialog_uploading_assessment">Uploading Assessment…</string>
+    <string name="dialog_building_assessment">Building Assessment…</string>
+    <string name="dialog_syncing_assessment">Syncing Assessment with Server…</string>
+
+    <string name="dialog_uploading_nc">Uploading Non-Conformance…</string>
+    <string name="dialog_download_audit_message">This Assessment has been edited elsewhere, would you like to download it and continue this device or overwrite it with your version?</string>
+
+
+    <!-- Server Failures -->
+
+    <string name="choose_your_organisation">Choose your organisation…</string>
+    <string name="logout_warning_message">"Please note, if you continue to logout you will lose any progress that has not been synced. Do you wish to continue?</string>
+
+    <!--  Empty list labels  -->
+    <string name="no_templates_available">No Templates Available</string>
+
+    <!-- Filters -->
+    <string name="filter_ncs">Filter Non-Conformances</string>
+    <string name="filter_tasks">Filter Tasks</string>
+
+
+    <string name="due_date_label">Due Date: </string>
+
+    <!--  Internet heartbeat check  -->
+    <string name="cancel_sync">Unable to reconnect, cancelling sync…</string>
+    <string name="resume_sync">Connection restored, commencing sync…</string>
+    <string name="finished_sync">Sync Complete</string>
+
+    <string name="network_busy">Network busy, please wait…</string>
+    <string name="submit_failed">Unable to upload the Assessment, it is marked for upload.</string>
+
+
+    <!--  Audit Preview  -->
+    <string name="audit_preview_text">%1$s - (Preview)</string>
+    <string name="search">Search…</string>
+    <string name="focus_on_qr_code">Focus on QR Code</string>
+    <string name="mandatory_fields">Mandatory Fields:</string>
+
+    <!--  Schedule Detail View  -->
+    <string name="schedule_detail_view_new_assessment_button_text">New Assessment</string>
+    <string name="schedule_detail_view_start_assessment_button_text">Re-Start Assessment</string>
+    <string name="offline_pin">Offline</string>
+
+    <string name="start">start</string>
+    <string name="preview">preview</string>
+    <string name="search_assignee">Search Assignee…</string>
+    <string name="saved">Saved</string>
+    <string name="delete">Delete</string>
+    <string name="clear">Clear</string>
+
+    <string name="placeholder_long">This is an exceptionally long piece of placeholder text to test whether layouts can cope with very long strings.
+        This is an exceptionally long piece of placeholder text to test whether layouts can cope with very long strings.
+        This is an exceptionally long piece of placeholder text to test whether layouts can cope with very long strings.
+        This is an exceptionally long piece of placeholder text to test whether layouts can cope with very long strings. </string>
+
+    <string name="placeholder_short">This is a placeholder. </string>
+    <string name="download">Download</string>
+    <string name="re_submit">Re-Submit</string>
+    <string name="resume">Resume</string>
+    <string name="select_previously_used_email_addresses">SELECT PREVIOUSLY USED EMAIL ADDRESSES</string>
+    <string name="search_for_user">Search for user…</string>
+    <string name="close">Close</string>
+    <string name="loading_asset">Loading Assets</string>
+    <string name="loading_template">Loading Templates</string>
+    <string name="title_activity_requirement_history">Requirement History</string>
+
+    <string name="no_non_conformances_available">No Non-Conformances Available</string>
+    <string name="no_non_conformances_added">No Non-Conformances Added</string>
+    <string name="no_tasks_added">No Tasks Added</string>
+    <string name="no_attachments_added">No Attachments Added</string>
+    <string name="no_tasks_available">No Tasks Available</string>
+    <string name="title_activity_password_reset">PasswordResetActivity</string>
+
+    <string name="no_Recommendation_added">No Recommendation Added</string>
+
+    <string name="recover_password">Recover Password</string>
+    <string name="recover_password_text">Enter your email address to reset your password. If valid, you will receive an email to your inbox.</string>
+    <string name="requirement_information">Requirement Information</string>
+    <string name="requirement">Requirement</string>
+    <string name="none">None</string>
+    <string name="version_header">Version: %1$s %2$s</string>
+    <string name="back">Back</string>
+
+    <string name="no_edit_tasks_warning">You do not have permission to edit Tasks</string>
+    <string name="no_edit_ncs_warning">You do not have permission to edit Non-Conformances</string>
+    <string name="no_approval_ncs_warning">You do not have permission to approve this Non-Conformance</string>
+    <string name="no_rejection_ncs_warning">You do not have permission to reject this Non-Conformance</string>
+    <string name="add_category">Add Category…</string>
+
+    <string name="add_description">Add Description…</string>
+
+    <string name="todo">To-Do</string>
+    <string name="active">Active</string>
+    <string name="view">View</string>
+    <string name="add_signature">Add Signature</string>
+    <string name="archiving_assessment">Archiving Assessment</string>
+    <string name="assessment_archived">Assessment Archived</string>
+    <string name="assessment_archive_failed">Archiving Failed</string>
+    <string name="confirm">Confirm</string>
+    <string name="non_conformance_score_reassign_message">Would you like to update the score of the requirement that this Non-Conformance was raised on?</string>
+    <string name="task_score_reassign_message">Would you like to update the score of the requirement that this Task was raised on?</string>
+    <string name="non_conformance_score_reassign_warning">This is not the only Non-Conformance raised against this question.</string>
+    <string name="task_score_reassign_warning">This is not the only Task raised against this question.</string>
+    <string name="choose_approver_label">Please choose at least one approver for this assessment</string>
+    <string name="no_approvers_label">The approvers selected for this Template do not have access to the Asset that this Assessment is being conducted on.\nPlease contact your administrator for further assistance.</string>
+    <string name="submit_audit">Submit Audit</string>
+    <string name="if_you_have_any_further_sign_off_comments_please_add_them_here">If you have any further sign off comments, please add them here.</string>
+    <string name="type_comments_here">Type comments here</string>
+    <string name="signature_1">Signature 1</string>
+    <string name="signature_2">Signature 2</string>
+    <string name="password">Password</string>
+    <string name="version_no">version no</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="email_or_username">Email or Username</string>
+    <string name="next">Next</string>
+    <string name="login">Login</string>
+    <string name="sign_in_as_new_user">Sign in as new user</string>
+    <string name="enter_authenticator_code">Enter Authenticator Code</string>
+    <string name="enter_the_code_from_your_google_authenticator_app_below">Enter the code from your Google Authenticator app below</string>
+    <string name="no_qr_match_title">Could not find a match</string>
+    <string name="no_qr_match_message">This QR code does not match anything in the list</string>
+
+    <string name="all_sections">All Sections</string>
+
+    <string name="input_name_here">Input Name Here…</string>
+    <string name="input_number_here">Input Number Here…</string>
+    <string name="input_date_here">Input Date Here…</string>
+    <string name="input_recommendation_here">Input Recommendation Here…</string>
+
+    <string name="required_hint">*Required</string>
+    <string name="delete_image">Delete Image</string>
+    <string name="qr_scan_failed">Unable to match QR code</string>
+
+    <string name="ok">OK</string>
+    <string name="print_name">Print name</string>
+    <string name="position">Position</string>
+    <string name="add_signature_2">Add Signature 2</string>
+    <string name="add_signature_1">Add Signature 1</string>
+
+    <string name="placeholder_date">16/Nov/2018 at 09:33</string>
+    <string name="placeholder_status">In-Progress</string>
+    <string name="placeholder_asset"><![CDATA[Asset 1 > Asset 2 > Asset 3 > Asset 4 > Asset 5 > Asset 6 > Asset 7 > Asset 8 > Asset 9]]></string>
+
+    <string name="comment">Comment</string>
+    <string name="share_report">Share Report</string>
+    <string name="close_report">Close Report</string>
+    <string name="close_assessment">Close Assessment</string>
+    <string name="close_report_name">Close Report - %1$s</string>
+    <string name="filter_non_conformances">Filter Non-Conformances</string>
+
+
+    <string name="asset_label">Asset:</string>
+    <string name="submitted_label">Submitted:</string>
+    <string name="last_updated_label">Last Updated:</string>
+    <string name="closed_label">Closed:</string>
+    <string name="id_label">id:</string>
+    <string name="close_assessment_message">Closing this Assessment will mean you will not be able to edit it. Are you sure you want to continue?</string>
+    <string name="add_new_sound">Add new sound</string>
+
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--  Core colours  -->
+    <color name="mainFade">#202bafd3</color>
+    <color name="mainDark">#0E3844</color>
+
+    <!--  Monochrome  -->
+    <color name="chinese_black">#141414</color>
+    <color name="jet">#222222</color>
+    <color name="charcoal">#2d2d2d</color>
+    <color name="oil">#646464</color>
+    <color name="monsoon">#777777</color>
+    <color name="aluminum">#999999</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="flagstone">#f5f7f9</color>
+
+    <!--  Error and Warning Colours  -->
+    <color name="error">#B00020</color>
+
+    <color name="text_grey">@color/iron</color>
+    <color name="text_dark">@color/jet</color>
+    <color name="icon_dark">@color/charcoal</color>
+    <color name="icon_grey">@color/aluminum</color>
+    <color name="background_light">@color/flagstone</color>
+    <color name="background_dark">@color/aluminum</color>
+
+    <color name="divider">#ecf0f3</color>
+
+</resources>

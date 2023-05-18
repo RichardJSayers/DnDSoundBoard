@@ -1,0 +1,47 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="default_text_padding">4dp</dimen>
+
+    <dimen name="row_padding_vertical">8dp</dimen>
+    <dimen name="row_padding_horizontal">16dp</dimen>
+
+    <!-- NonConformanceListItemActivity -->
+    <dimen name="nc_card_margin">8dp</dimen>
+    <dimen name="nc_card_corner_radius">4dp</dimen>
+    <dimen name="nc_multiline_edit_text_padding">4dp</dimen>
+    <dimen name="nc_multiline_edit_text_margin">4dp</dimen>
+
+    <dimen name="card_padding">4dp</dimen>
+    <dimen name="button_padding">16dp</dimen>
+
+    <dimen name="rounded_corner_radius">4dp</dimen>
+    <dimen name="rounded_corner_radius_large">12dp</dimen>
+
+    <dimen name="list_item_margin">16dp</dimen>
+    <dimen name="list_item_margin_assessment_horizontal">8dp</dimen>
+    <dimen name="list_item_margin_assessment_vertical">4dp</dimen>
+    <dimen name="list_item_margin_assessment_vertical_large">16dp</dimen>
+
+    <dimen name="list_item_margin_vertical">4dp</dimen>
+    <dimen name="list_item_margin_horizontal">8dp</dimen>
+
+    <dimen name="text_field_height">54dp</dimen>
+    <dimen name="navigation_bar_height">48dp</dimen>
+
+    <dimen name="large_icon_height">48dp</dimen>
+    <dimen name="large_icon_width">48dp</dimen>
+
+    <dimen name="small_icon_height">24dp</dimen>
+    <dimen name="small_icon_width">24dp</dimen>
+
+    <dimen name="status_indicator_padding_vertical">2dp</dimen>
+    <dimen name="status_indicator_padding_horizontal">4dp</dimen>
+
+    <dimen name="icon_size">36dp</dimen>
+    <dimen name="icon_size_large">72dp</dimen>
+
+    <!-- Fab Heights -->
+
+</resources>

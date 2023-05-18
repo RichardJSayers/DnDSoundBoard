@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.sayers.dndsoundboard.MainActivity">
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/ic_plus"
+        android:iconTint="@color/white"
+        android:title="@string/add_new_sound"
+        app:showAsAction="always"/>
+</menu>
